@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(156,186,147); 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    font-size: 20px; 
+    padding: 20px; 
+}
+
+.header {
+    background-color: rgb(97,98,137); 
+    padding: 20px; 
+    color: rgb(240, 190, 190); 
+    font-size: 24px; 
+}
+
+.container {
+    margin-top: 50px; 
+}
+
+.flags img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin: 20px; 
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.flags img:hover {
+    transform: scale(1.1); 
+}
+
+.welcome {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+}
